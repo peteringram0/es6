@@ -1,0 +1,39 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-babel": "^5.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteringram0/es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peteringram0/es6/issues"
+  },
+  "homepage": "https://github.com/peteringram0/es6",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp-jade": "^1.1.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "jsonp": "npm:jsonp@^0.2.0",
+      "lodash": "npm:lodash@^3.10.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
